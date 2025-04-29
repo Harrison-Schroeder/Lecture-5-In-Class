@@ -1,0 +1,2 @@
+class Moose < ApplicationRecord
+end
