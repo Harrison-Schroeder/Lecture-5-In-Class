@@ -53,7 +53,7 @@ no_of_companies = Company.all.count
 
 # 4. query companies table to find single row for Apple
 # apple = Company.where({"name" => "Apple"})[0]
-# apple = Company.find_by({"name" => "Apple"})
+apple = Company.find_by({"name" => "Apple"})
 
 # # 5. read a row's column value
 # p apple["name"]
